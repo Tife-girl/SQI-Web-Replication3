@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.big-flex {
+    display: flex;
+    background-color: #e2e4f2;
+    gap: 30px;
+    padding:  10px 300px;
+    height: 1000px;
+}
+
+.small-flex {
+    margin: 10px;
+    background-color: #ffff;
+    width: 900px;
+}
+
+.small-flex h5 {
+    font-size: 23px;
+    font-weight: 550;
+    color: rgb(51, 51, 51);
+    line-height: 45px;
+    padding-left: 30px;
+    text-align: start;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#a {
+    font-size: 20px;
+    color: #f7827e;
+    line-height: 21.6px;
+    padding: 0px 30px 10px 30px;
+    font-weight: 600;
+
+}
+
+.small-flex p {
+    font-size: 23px;
+    font-weight: 550;
+    line-height: 45px;
+    color: rgb(102, 102, 102);
+    text-align: justify;
+    padding: 0px 30px 0px 30px;
+    word-spacing: 5px;
+}
+
+.small-flex img {
+    width: 100%;
+    padding: 0px;
+    height: 50%;
+}
+
+.grid-A {
+    background-color: #e2e4f2;
+    display: grid;
+    grid-template-columns: 1000px 750px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 310px;
+    grid-column-gap: 900px;
+}
+
+.grid-A h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.grid-A button {
+    padding: 20px;
+    border-radius: 60px;
+    background-color: #00208a;
+    color: #ffff;
+    font-size: 28px;
+    font-weight: 500;
+
+}
